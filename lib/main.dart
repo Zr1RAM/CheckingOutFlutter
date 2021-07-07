@@ -2,7 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Scaffold(
+    home: Home(),
+  ));
+}
+
+class Home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text('Insert App bar title'),
         centerTitle: true,
@@ -23,9 +30,14 @@ void main() {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
         onPressed: () {},
-        child: Text('dont touch me'),
+        child: Text(
+          'dont touch me',
+          style: TextStyle(
+            fontSize: 8.5,
+            letterSpacing: 3.0,
+          ),
+        ),
       ),
-    ),
-  ));
+    );
+  }
 }
-
