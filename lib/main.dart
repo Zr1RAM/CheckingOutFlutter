@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          '6 packs coming soon',
+          '6 packs coming soon!',
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
