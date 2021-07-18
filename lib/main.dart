@@ -17,9 +17,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
       body: Center(
-        child: Image(
-          image: NetworkImage('https://4.bp.blogspot.com/-ueK-r-EeMkQ/XEI4lBBfw9I/AAAAAAAAAxE/PI33BreoXDcnPVsF6DFd39-QxmkihMiXACKgBGAs/w0/deepika-padukone-9-4k.jpg'),
-        ),
+        child: Image.asset('assets/DeepikaPadukone2.jpg')
+        // Image(
+        //   image: AssetImage('assets/DeepikaPadukone3.jpg'), //This is one way of writing it 
+        // ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
