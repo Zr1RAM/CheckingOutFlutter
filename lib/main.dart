@@ -1,3 +1,4 @@
+  
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,16 +17,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
       body: Center(
-        child: Text(
-          '6 packs coming soon!',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.blueGrey,
-            fontFamily: 'IndieFlower',
-          ),
-          ),
+        child: Image(
+          image: NetworkImage('https://4.bp.blogspot.com/-ueK-r-EeMkQ/XEI4lBBfw9I/AAAAAAAAAxE/PI33BreoXDcnPVsF6DFd39-QxmkihMiXACKgBGAs/w0/deepika-padukone-9-4k.jpg'),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
