@@ -17,16 +17,26 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
       body: Center(
-        child: Text(
-          '6 packs coming soon',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.blueGrey,
-            fontFamily: 'IndieFlower',
-          ),
-          ),
+        child: IconButton(
+          onPressed: () {
+            print('icon got clicked');
+          },
+          icon: Icon(Icons.alternate_email),
+          color: Colors.amber,
+          iconSize: 50,
+        ),
+        // RaisedButton.icon( // raised button is deprecated.. need to look into ElevatedButton
+        //   onPressed: () {
+        //     print('got clicked');
+        //   },
+        //   icon: Icon(
+        //     Icons.mail,
+        //     color: Colors.blue,
+        //     size: 25,
+        //   ),
+        //   label: Text('mail me'),
+        //   color: Colors.amber,
+        // ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
